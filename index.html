@@ -35,14 +35,16 @@
   
   <section class="landing-page">
     <div class="container">
-      <img src="assets/logo.png" alt="Storyboard's logo" class="logo"/>
- 
-      <iframe  src="https://www.youtube.com/embed/RiJ9CFdAZoE" 
-      title="Get FREE Prizes by Making a VISUAL NOVEL?" frameborder="0" 
-      style="border:solid 3px #9B81F0;border-radius:1rem;max-width:94%;flex-grow:1;"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true">
-      </iframe>
+      <div class="logo-container">
+        <!-- <div class="logo-transform">
+          <h1 class="campfire-title">CAMPFIRE</h1>
+        </div> -->
+        <img src="assets/Frame 4 (4).png" alt="Campfire's logo" class="logo-campfire"/>
+        <span class="logo-separator">×</span>
+        <img src="assets/logo.png" alt="Storyboard's logo" class="logo"/>
+        
+        
+      </div>
       <!-- <nav>
       <h2 style="font-family:'Marvel'">
         <a href="#section-steps" class="enlarge"> > HOW DOES THIS WORK?</a>
@@ -58,14 +60,9 @@
       </nav>
      -->
     </div>
-    <h1 style="margin:0;">MAKE A VISUAL NOVEL, GET COOL PRIZES!</h1> 
-    <form method="post" action="" name="email-form" class="email-form form-row">
-      <img src="assets/signup-cat.png" alt="cat" width="100px">
-      <input type="email" id="email" placeholder="Enter your email..." name="email">
-      <input type="SUBMIT" class="submit-btn">
-    </form>
+    <h1 style="margin:0;">MAKE A VISUAL NOVEL WITH RENPY!</h1> 
     
-    <p>FOR TEENS 18 AND UNDER... <br><span style="font-weight:100">Storyboard V2 is active!</span></p>
+    <p>Looking to make a different type of game, check out <a id="overdrive" target="_blank" href="https://overdrive.campfire.hackclub.com">overdrive</a>!</p>
          <a href="https://hackclub.com">
       <img src="assets/cat.png" width="200px" id="cat1" style="left:0;position:absolute; padding:3rem;bottom:15px;" class="rotate">
     </a>
@@ -73,122 +70,32 @@
 
 </section>
 
-<section id="section-steps">
-  <h2 class="header" data-aos="fade-up" >HOW DOES STORYBOARD WORK?</h2>
-  <p data-aos="fade-up">  Track your art and coding hours, create a visual novel based on a new genre every month, and get cool prizes</p>
 
-  <div class="image-grid" >
-    <div class="btn" data-aos="fade-up">
-    <a href="https://join.slack.com/t/hackclub/shared_invite/zt-3b5sak3xz-bFujFB5ciw1jnEDzfUEzAg" target="_blank">
-      <img
-        src="assets/step 01.png" 
-        alt="Raccoons talking about joining Hack Club Slack"
-        class="btn"
-      > </a>
-    </div>
 
-    <div class="btn" data-aos="fade-up">
-      <a href="https://hackclub.slack.com/docs/T0266FRGM/F09616RN3AL" target="_blank">
-      <img
-        src="assets/step 02.png"
-        alt="thinking emoji (about story obviously)"
-        class="btn"
-      /> </a>
-    </div>
-    
-
-    <div class="btn" data-aos="fade-up">
-      <a href="https://docs.google.com/document/d/1tfEr_6A3tlXod_1El_F757lU6MpuZNft8vFeGw0q808/edit?tab=t.0" target="_blank">
-      <img
-        src="assets/step 03.png"
-        alt="locking in on storyboarding (haha get it) and art"
-        class="btn"
-      /> </a>
-      </div>
-    <div class="btn" data-aos="fade-up">
-    <a href="https://www.renpy.org/doc/html/quickstart.html" target="_blank">
-      <img
-        src="assets/Step 04.png"
-        alt="locking in out on coding through Ren'Py"
-        class="btn"
-      /> </a>
-    </div>
-
-    <div class="btn" data-aos="fade-up">
-      <a href="https://itch.io" target="_blank">
-      <img
-        src="assets/step 05.png"
-        alt="Publish the visual novel on itch.io!"
-        class="btn"
-      /> </a>
-    </div>
-
-    <div class="btn" data-aos="fade-up">
-      <a href="https://forms.hackclub.com/storyboarding" target="_blank">
-      <img
-        src="assets/step 06.png"
-        alt="Project Submission link to get your prize"
-        class="btn"
-      /></a>
-    </div>
-  </div>
-  <h2 class="theme"> THEME OF THE MONTH: <i>LOVE</i></h2>
-
-</section>
-
-<section id="section-tiers" style="position:relative; padding-top:2rem;">
-
-  <h2 class="header"> RANKS</h2>
-  <p style="padding:0;">Depending on the number of hours spent and quality of product, you can get different prizes!</p>
-  <div class="tier">
-  <div class="card">
-    <div id="hover">
-    <img src="assets/apprentice.png" style="width:95%" class="rotateR" >
-
-    </div>
-    <h2>APPRENTICE</h2>
-    <p>Spend 3+ hours of quality work, get this month's 
-      <span style="cursor:pointer;color:#242781;text-decoration:underline" target="_blank" id="click_me" >
-      CUSTOM STICKERS
-      </span>
-    </p>
-  
-  </div>
-  <div class="card">
-    <img src="assets/spellcaster.png" style="width:95%" class="rotateL">
-    <h2>SPELLCASTER</h2>
-    <p>Spend 10+ hours of quality work, get a <a>BIG IKEA</a> plush!</p>
-  </div>
-  <div class="card">
-    <img src="assets/mage.png" style="width:95%" class="rotateR">
-    <h2>MAGE</h2>
-    <p>Spend 30+ hours of quality work, get a <a href= "https://store.steampowered.com/sub/163632/" style="text-decoration:underline" target="_blank" >STEAM LICENSE</a></p>
-  </div>
-  <div class="card">
-    <img src="assets/archmage.png" style="width:95%" class="rotateL">
-    <h2>ARCHMAGE</h2>
-    <p>Spend 50+ hours of quality work, get a <a style="text-decoration:underline" target="_blank" 
-    href="https://shorturl.at/XD2ui"> DRAWING TABLET </a>, <a>KEYBOARD</a>, OR <a>HEADPHONES</a></p>
-  </div>
-</div>
-
-<div id="sticker_sheet" style="position:absolute;display:none;background-color:rgba(255, 255, 255, 0.425); flex-direction:column;justify-content: center;align-items:center; 
-z-index:1000; width:100%;height:100%; backdrop-filter: blur(20px);padding:2rem;">
-  <img src="assets/sticker-sheet.png" style="width:450px;max-width:80%;padding:1rem;">
-  <p>click anywhere to exit</p>
-</div> 
-
-</section>
 
 <section id="section-tutorial" style="gap:5rem;">
   <div data-aos="fade-up">
     <h2 class="header" >STEP-BY-STEP GUIDE TO EVERYTHING</h2>
     <p> Here's a step-by-step, super easy guide to creating a visual novel!</p>
   </div>
-  
+
   <div class="stack" dir="rtl">
     <div class="format">
-      <h2> #1: WRITING A STORY</h2> 
+      <h2> #1: CODING WITH REN'PY</h2> 
+      <p> New to coding? Ren'py makes it super easy!
+        <br>Check out <a href="https://www.renpy.org/doc/html/quickstart.html" class="emphasize"> RENPY QUICKSTART </a> for a non-slideshow tutorial</p>  
+    </div>
+      <iframe loading="lazy"
+        src="https://www.canva.com/design/DAHBzgAIShk/AtR6XJ7ps1uudUdKTNDP-A/view?embed"
+        allowfullscreen="true" 
+        mozallowfullscreen="true" 
+        webkitallowfullscreen="true">
+    </iframe>
+  </div>
+
+  <div class="stack" >
+    <div class="format">
+      <h2> #2: WRITING A STORY</h2> 
       <p></p>
     </div>
 
@@ -200,46 +107,15 @@ z-index:1000; width:100%;height:100%; backdrop-filter: blur(20px);padding:2rem;"
     </iframe>
   </div>
 
-  <div class="stack">
-    <div class="format">
-      <h2> #2: TRACKING YOUR HOURS</h2> 
-      <p> 1. Track your time spent on art/writing through 
-        <a href="https://docs.google.com/document/d/1tfEr_6A3tlXod_1El_F757lU6MpuZNft8vFeGw0q808/edit?usp=sharing" target="_blank" class="emphasize"> OUR JOURNAL TEMPLATE</a> 
-        <br> 2. Track your coding hours with our
-      <a href="https://hackatime.hackclub.com" target="_blank" class="emphasize"> HACKATIME EXTENSION</a></p>
-    </div>
-    <iframe 
-        loading="lazy" 
-        src="https://www.canva.com/design/DAGwtXqXZN8/HHoaf96sGiy_DKhEbR-dNw/view?embed" 
-        allowfullscreen="true" 
-        allow="fullscreen">
-    </iframe>
-  </div>
+
+  
 
   <div class="stack" dir="rtl">
     <div class="format">
-      <h2> #3: CODING WITH REN'PY</h2> 
-      <p> New to coding? Ren'py makes it super easy!
-        <br>Check out <a href="https://www.renpy.org/doc/html/quickstart.html" class="emphasize"> RENPY QUICKSTART </a> for a non-slideshow tutorial</p>  
-    </div>
-      <iframe loading="lazy"
-        src="https://www.canva.com/design/DAGwqnw-zrA/3dG1zywd0SWtJ3xOUwylVA/view?embed"
-        allowfullscreen="true" 
-        mozallowfullscreen="true" 
-        webkitallowfullscreen="true">
-    </iframe>
-  </div>
-
-  <div class="stack">
-    <div class="format">
-      <h2> #4: PUBLISH & GET PRIZE!</h2> 
-      <p> 1. Publish on <a href="https://itch.io" target="_blank" class="emphasize"> itch.io</a> <br> 
-        2. Post playable URL on <a href="https://tumblr.com" target="_blank" class="emphasize"> Tumblr</a> or
-        <a href="https://reddit.com" target="_blank" class="emphasize"> Reddit</a><br> 
-        3. Submit link to your post <br> 4. Get your prize! </p>
+      <h2> #3: PUBLISH & TO ITCH.IO!</h2> 
     </div>
     <iframe loading="lazy" 
-          src="https://docs.google.com/presentation/d/e/2PACX-1vTaK4_94OMLMlhZ6nfoUnLDJfQBc1mGVFsUa7D9aQZaNLYXMWnGWpw7gflQwYLAG18MihnZ6S3DtkRe/pubembed?start=false&loop=false&delayms=60000"
+          src="https://docs.google.com/presentation/d/e/2PACX-1vTxEL4wHvJUGDT5BlOB9mNSsTXUDdazhqlAJCvQVNdeQvGXDIgq38AjJBhksWqNJEuyPZiBs6f7LCUB/pubembed?start=false&loop=false&delayms=60000"
           allowfullscreen="true" 
           mozallowfullscreen="true" 
           webkitallowfullscreen="true">
@@ -247,18 +123,13 @@ z-index:1000; width:100%;height:100%; backdrop-filter: blur(20px);padding:2rem;"
   </div>
 
 
-  <h2 style="margin:0;">
-    <a href="https://submit.hackclub.com/storyboard" target="_blank" class="special" >
-      FINAL SUBMISSION HERE!!  
-    </a> 
-  </h2>
   
 </section>
 
-<div style="padding:1rem 0rem 6rem 0rem;width:80%;">
+<div style="padding:5rem 0rem 6rem 0rem;width:80%;">
   <div>
     <h2>Examples:</h2>
-    <p style="padding-left:0;">Stuck? Explore the <a style="border-radius:10px;padding:4px 10px;background-color:#9b81f04d;color:#242781;font-style:italic" href="https://hackclub.slack.com/archives/C095E84SE1X" target="_blank">storyboard</a> channel and feel free to ask questions. Additionally, below we've compiled some amazing visual novels <br>
+    <p style="padding-left:0;">Below we've compiled some amazing visual novels <br>
       Want a full comprehensible guide? Check out <a href="https://ikealoverkat.github.io/storyboard2/" target="_blank">Kat's Ren'Py Guide</a></p>
     <h3 style="margin:0;padding:1rem 0rem;text-align:left;">Here are some epic Storyboard submissions:</h3>
   </div>
@@ -322,14 +193,9 @@ z-index:1000; width:100%;height:100%; backdrop-filter: blur(20px);padding:2rem;"
 
 </div>
 
-<section id="section-faq" style="position:relative;" class="landing-page">
+<section id="section-faq" style="position:relative;" class="faq-page">
   
-  <h2 class="header">FAQ</h2>
-  <iframe frameborder="0" src="https://itch.io/embed-upload/14738959?color=333333" 
-  allowfullscreen="true" style="width:1200px;max-width:94%;aspect-ratio: 2/1.2;height:auto;">
-    <a href="https://alicesun.itch.io/storyboard-faq">Play Storyboard FAQ on itch.io</a>
-  </iframe>
-  <p style="font-size:24px;">Questions? Contact <a href="mailto:storyboard@hackclub.com" style="color:rgb(155, 99, 220)">renran@hackclub.com</a> <br> This website is also <a href="https://github.com/hackclub/storyboard" style="color:rgb(155, 99, 220)">open source</a></p>
+  <p style="font-size:24px;">Questions? Contact <a href="mailto:rishabh@hackclub.com" style="color:rgb(155, 99, 220)">rishabh@hackclub.com</a> <br> This website is also <a href="https://github.com/hackclub/storyboard" style="color:rgb(155, 99, 220)">open source</a></p>
 
   <p class="small">MADE BY TEENAGERS FOR TEENAGERS</p>
 
